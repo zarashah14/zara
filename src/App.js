@@ -1,5 +1,6 @@
 
 import './App.css';
+import { useState } from 'react';
 
 function App() {
   return (
@@ -10,7 +11,7 @@ function App() {
           <button>Search Game Title</button>
     </div>
     <div className='dealsSection'>
-      <button>Search</button>
+       <h1>Latest Deal</h1>
     </div>
     </div>
   );
